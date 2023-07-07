@@ -1,7 +1,6 @@
 import sys
-from . import Provider
+from g4f import Provider
 from g4f.models import Model, ModelUtils
-
 
 class ChatCompletion:
     @staticmethod
