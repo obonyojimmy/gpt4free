@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gpt4free"
+name = "g4f"
 version = "0.2.0"
 description = ""
 authors = []
@@ -14,7 +14,6 @@ dynamic = ["dependencies"]
 
 [tool.setuptools.packages.find]
 exclude = ["**/*.txt", "./testing", "./.github"]
-include = ["g4f", "gpt4free"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
