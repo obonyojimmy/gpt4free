@@ -13,9 +13,8 @@ requires-python = ">=3.10"
 dynamic = ["dependencies"]
 
 [tool.setuptools.packages.find]
-exclude = ["**/*.txt", ".v1/*"]
+exclude = ["**/*.txt", "./testing", "./.github"]
 include = ["g4f", "gpt4free"]
-
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
